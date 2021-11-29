@@ -14,9 +14,12 @@
 <link rel="apple-touch-icon" type="image/png" href="https://netron.app/icon.png">
 <link rel="apple-touch-icon-precomposed" type="image/png" href="https://netron.app/icon.png">
 <link rel="fluid-icon" type="image/png" href="https://netron.app/icon.png">
+
 <script type="text/javascript" src="https://netron.app/dagre.js"></script>
 <script type="text/javascript" src="https://netron.app/base.js"></script>
+<script type="text/javascript" src="https://netron.app/text.js"></script>
 <script type="text/javascript" src="https://netron.app/json.js"></script>
+<script type="text/javascript" src="https://netron.app/xml.js"></script>
 <script type="text/javascript" src="https://netron.app/python.js"></script>
 <script type="text/javascript" src="https://netron.app/protobuf.js"></script>
 <script type="text/javascript" src="https://netron.app/flatbuffers.js"></script>
@@ -412,7 +415,7 @@ window.addEventListener('message', event => {
 
 
 h.confirm = async function(message, detail) {
-    console.log(message, detail)
+    console.log(message, detail);
     vscode.postMessage({
                         command: 'confirm',
                         text: message + "\n" + detail
