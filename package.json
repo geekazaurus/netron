@@ -2,15 +2,15 @@
     "name": "netron",
     "displayName": "netron",
     "description": "",
-    "version": "0.13.0",
-    "publisher": "talshalti",
+    "version": "0.14.0",
+    "publisher": "GuyHirschberg",
     "engines": {
         "vscode": "^1.51.0"
     },
     "repository": {
         "directory": ".",
         "type": "git",
-        "url": "https://github.com/talshalti/netron.git"
+        "url": "https://github.com/geekazaurus/netron.git"
     },
     "categories": [
         "Other"
